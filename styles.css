@@ -3,10 +3,10 @@ body {
     min-height: 854px;
     background-image: url('https://jpimg.com.br/uploads/2017/04/1309284201-capitao-america-guerra-civil.jpg');
     background-color: #000000;
-    background-size: cover;
+    background-size:cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 20vh;
+    
 }
 
 .container {
@@ -25,6 +25,7 @@ button, button-jogar {
     border-radius: 5px;
     border: none;
     font-size: 1rem;
+   
 }
 
 h2 {
@@ -43,8 +44,8 @@ h2 {
     position: relative;
     background-size: 350px 300px;
     background-repeat: no-repeat;
-    background-position-x: 5px;
-    background-position-y: 10px;
+    background-position-x: center;
+    background-position-y: 50px;
     border-radius: 33px;
 }
 

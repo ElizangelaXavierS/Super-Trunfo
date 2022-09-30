@@ -46,12 +46,12 @@ var cartaJogador;
 var cartas = [carta1, carta2, carta3, carta4];
 
 function sortearCarta() {
-   var numeroCartaMaquina = parseInt(Math.random() * 3);
+   var numeroCartaMaquina = parseInt(Math.random() * 4);
    cartaMaquina = cartas[numeroCartaMaquina];
 
-   var numeroCartaJogador = parseInt(Math.random() * 3);
+   var numeroCartaJogador = parseInt(Math.random() * 4);
    while(numeroCartaJogador == numeroCartaMaquina){
-    var numeroCartaJogador = parseInt(Math.random() * 3);
+    var numeroCartaJogador = parseInt(Math.random() * 4);
 
    }
    
